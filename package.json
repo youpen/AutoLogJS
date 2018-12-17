@@ -1,0 +1,22 @@
+{
+  "name": "autologjs",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/youpen/AutoLogJS.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/youpen/AutoLogJS/issues"
+  },
+  "homepage": "https://github.com/youpen/AutoLogJS#readme",
+  "dependencies": {
+    "@babel/parser": "^7.2.2"
+  }
+}
