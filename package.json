@@ -17,11 +17,11 @@
   },
   "homepage": "https://github.com/youpen/AutoLogJS#readme",
   "dependencies": {
-    "@babel/parser": "^7.2.2"
+    "recast": "^0.16.1"
   },
   "devDependencies": {
     "@babel/cli": "^7.2.0",
     "@babel/core": "^7.2.2",
-    "@babel/preset-env": "^7.2.0"
+    "babel-preset-latest": "^6.24.1"
   }
 }
