@@ -39,6 +39,6 @@ function makeConsole(param) {
   );
   return d;
 }
-console.log(recast.print(ast).code);
-// fs.writeFileSync();
+const modifiedCode = recast.print(ast).code;
+fs.writeFileSync('./testData.js', modifiedCode, 'utf-8');
 // print(makeConsole('cc'));
