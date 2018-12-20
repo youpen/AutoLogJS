@@ -1,15 +1,15 @@
-function add(a, b) {
-  console.log('add');
-  console.log('add');
-  console.log('add');
-  console.log('add');
-  return a + b;
+const a = function() {
+  console.log('a');
+  return 12
 }
 
-function xxadd(a, b) {
-  console.log('xxadd');
-  console.log('xxadd');
-  console.log('xxadd');
-  console.log('xxadd');
-  return a + b;
+function test() {
+  console.log('test');
+  const a = 1;
+}
+
+class Test {
+  take() {
+    console.log('take');
+  }
 }
